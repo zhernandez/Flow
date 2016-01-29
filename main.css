@@ -5,15 +5,25 @@ body{
 div{
 	height:200px;
 	width:200px;
-	position: relative;
+	position: absolute;
 }
 .rojo{
 	background: #ee3e64;
+	left:0;
+	top:0;
 }
 .azul{
 	background: #44accf;
-	left:200px;
+	right:0;
+	top:0;
 }
 .verde{
 	background: #b7d84b;
+	left:0;
+	bottom:0;
+}
+.amarillo{
+	background: #ffff22;
+	right:0;
+	bottom:0;
 }
