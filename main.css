@@ -5,7 +5,7 @@ body{
 div{
 	height:200px;
 	width:200px;
-	position: absolute;
+	position: relative;
 }
 .rojo{
 	background: #ee3e64;
@@ -14,8 +14,9 @@ div{
 }
 .azul{
 	background: #44accf;
-	right:0;
-	top:0;
+	left:200px;
+	top:200px;
+	position: absolute;
 }
 .verde{
 	background: #b7d84b;
